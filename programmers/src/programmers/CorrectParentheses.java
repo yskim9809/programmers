@@ -31,8 +31,8 @@ public class CorrectParentheses { // 스택, 큐 Lv.2 올바른 괄호
 
 			String arr[] = s.split("");
 			Stack<String> st = new Stack<>();
-			
-			if (arr[0].equals(")")) //첫번째가 우괄호면 false
+
+			if (arr[0].equals(")")) // 첫번째가 우괄호면 false
 				return false;
 			for (int i = 0; i < arr.length; i++) {
 				if (arr[i].equals("(")) {
