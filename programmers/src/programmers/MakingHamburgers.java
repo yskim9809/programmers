@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Stack;
 
-public class MakingHamburgers {
+public class MakingHamburgers { //햄버거 만들기
 	class Solution {
 		public int solution(int[] ingredient) {
 			int answer = 0;

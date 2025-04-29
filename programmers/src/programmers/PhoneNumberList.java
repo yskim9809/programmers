@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class PhoneNumberList {
+public class PhoneNumberList { //전화번호 목록
 	class Solution {
 		public boolean solution(String[] phone_book) {
 			boolean answer = true;
