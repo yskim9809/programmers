@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashSet;
 
-public class Pokemon2 {
+public class Pokemon2 { // Lv1.해시 - 포켓몬
 	class Solution {
 		public int solution(int[] nums) {
 			int answer = 0;
