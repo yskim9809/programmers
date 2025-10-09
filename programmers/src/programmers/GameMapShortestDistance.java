@@ -38,6 +38,8 @@ public class GameMapShortestDistance { // Lv.3 bfs - 게임 맵 최단거리
 			if (visited[n - 1][m - 1] == 0)
 				return -1;
 			return visited[n - 1][m - 1];
+
 		}
+
 	}
 }
