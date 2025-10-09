@@ -14,7 +14,7 @@ public class VowelDictionary { // 모음사전
 				for (int i = 0; i < n; i++) {
 					char a = word.charAt(i);
 					for (int j = 0; j < vowels.length; j++) {
-						if (a == vowels[j]) { //몇 '번째'인지 구하는거니까 자기자신포함
+						if (a == vowels[j]) { // 몇 '번째'인지 구하는거니까 자기자신포함
 							answer += j * weight[i] + 1;
 							break;
 						}
